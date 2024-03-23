@@ -1,0 +1,68 @@
+.news{
+    background-color: var(--AC-brown);
+}
+
+.header{
+    background-color: var(--AC-green);
+    color: white;
+}
+
+.header h1{
+    font-family: Hello;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.section{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* height: 80px; */
+    max-width: 1200px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoContainer {
+    display: flex;
+    place-items: center;
+}
+.logoContainer img{
+    width: 50px;
+}
+
+/* // BUSCADOR */
+
+.searchInput{
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 20vw;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}

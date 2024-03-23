@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Hello';
+  src: url('../fonts/Hello.ttf');
+}
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --AC-green: #404f24;
+  --AC-green: #10965e;
+  --AC-brown: #c07936;
+  --AC-brown: rgb(255, 108, 71);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}

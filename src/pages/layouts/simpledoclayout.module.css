@@ -1,0 +1,28 @@
+.article{
+    background-color: white;
+    margin: 50px auto;
+    padding: 60px 20px;
+    width: 800px;
+    color: rgb(1, 122, 66);
+    opacity: .8;
+}
+
+.article h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.article h3{
+    margin: 2rem 0;
+}
+
+.article p, .article ul {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.article li {
+    margin-left: 40px;
+}
