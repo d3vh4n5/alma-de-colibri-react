@@ -1,16 +1,8 @@
 import { Link } from "react-router-dom";
 import s from './header.module.css'
+import { LINKS } from "../../constants/nav.constants";
 
 
-const LINKS = [
-    { path: '/', label: 'Inicio'},
-    // { path: '/test', label: 'Test'},
-    { path: '/products', label: 'Productos'},
-    { path: '/promotions', label: 'Promos'},
-    { path: '/about', label: 'Nosotros'},
-    { path: '/categories', label: 'Categorías'},
-    { path: '/contact', label: 'Contacto'},
-]
 export default function Header() {
 
 

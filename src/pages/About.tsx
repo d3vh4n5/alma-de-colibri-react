@@ -52,6 +52,8 @@ const About = () => {
                 de nuestros clientes y sus familias.
                 </p>
 
+                <hr />
+
                 <p>
                 ¡Gracias por confiar en nosotros como tu elección para disfrutar de los mejores frutos secos en Campana!
                 </p>
