@@ -8,14 +8,14 @@ const About = () => {
 
                 <h2>Quénes Somos</h2>
                 <p>
-                    Somos es una <strong>empresa familiar</strong> dedicada 
+                    <em>Alma de colibrí</em> es una <strong>empresa familiar</strong> dedicada 
                     a la venta de los mejores <em>frutos secos</em> y productos relacionados 
                     en la ciudad de Campana. 
                     Desde nuestros inicios, nos hemos comprometido con la calidad, frescura y 
                     variedad de nuestros productos para ofrecer a nuestros 
                     clientes una experiencia única, saludable y deliciosa.
                 </p>
-                <h3>Nuestra Misión:</h3>
+                <h3 className="text-xl font-bold">Nuestra Misión:</h3>
                 <p>
                     En <strong>Alma de Colibrí</strong>, nuestra misión es 
                     ofrecer frutos secos de alta calidad, frescos y sabrosos, 
@@ -24,7 +24,7 @@ const About = () => {
                     la selección de los mejores frutos secos hasta el servicio 
                     al cliente excepcional que brindamos en cada compra.
                 </p>
-                <h3>Nuestros productos:</h3>
+                <h3 className="text-xl font-bold">Nuestros productos:</h3>
                 <p>
                     Disponemos de una amplia gama de productos que incluyen:
                 </p>
@@ -42,7 +42,7 @@ const About = () => {
                     Productos a granel y envasados para satisfacer todas las necesidades y gustos.
                     </li>
                 </ul>
-                <h3>
+                <h3 className="text-xl font-bold">
                 Nuestra Filosofía:
                 </h3>
                 <p>

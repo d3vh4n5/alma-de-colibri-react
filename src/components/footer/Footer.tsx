@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
         <nav>
-          <h3>Mapa del sitio</h3>
+          <h3 className="font-bold text-xl">Mapa del sitio</h3>
           <ul>
               {LINKS.map(link => (
                   <li key={link.path}>
