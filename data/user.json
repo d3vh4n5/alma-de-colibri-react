@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "password": "pbkdf2_sha256$720000$oMQjc4oArdyrW5f0Ou6EWW$E3PP/yK6TpwRYQm8rdfkIKCpMxev2tTjukHONe1zUjo=",
+        "last_login": "2024-04-10T11:30:43.506685-03:00",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "juanangelbasgall@hotmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-04-10T11:30:02.374767-03:00",
+        "phone": null,
+        "related_discount": null,
+        "groups": [],
+        "user_permissions": []
+    }
+]

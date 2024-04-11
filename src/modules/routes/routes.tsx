@@ -5,6 +5,7 @@ import { Test } from "../../pages/Test";
 import NotFound from "../../pages/NotFound";
 import About from "../../pages/About";
 import Contact from "../../pages/Contact";
+import Products from "../../pages/Products";
 
 
 export const router = createBrowserRouter([
@@ -19,6 +20,7 @@ export const router = createBrowserRouter([
             // Generic routes
             { path: 'about', element: <About /> },
             { path: 'contact', element: <Contact /> },
+            { path: 'products', element: <Products /> },
         ],
     }
 ])

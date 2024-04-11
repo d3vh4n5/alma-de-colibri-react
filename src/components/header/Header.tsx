@@ -20,7 +20,7 @@ export default function Header() {
                         <img src="/logo.png" alt="" className="w-11" />
                     </div>
                     <div className="flex items-center">
-                        <input className="rounded-2xl p-1 w-96" type="search" name="search" id="" placeholder="🔍"/>
+                        <input className="rounded-2xl p-1 lg:w-96" type="search" name="search" id="" placeholder="🔍"/>
                     </div>
                     <div>
 

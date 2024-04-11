@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+            "id": 5,
+            "name": "Mani",
+            "description": "Mani de prueba",
+            "price": "2000.00",
+            "cost": "1000.00",
+            "image": "http://127.0.0.1:8000/products/media/png-transparent-logo-php-html-others-text-trademark-logo-thumbnail.png",
+            "stock": 300,
+            "last_restocked_at": "2024-04-10",
+            "expiration_days": 10,
+            "created_at": "2024-04-10T13:46:05.439018-03:00",
+            "updated_at": "2024-04-10T13:46:05.439037-03:00",
+            "related_discount": null,
+            "created_by": 1,
+            "updated_by": 1,
+            "related_categories": [
+                1
+            ]
+        }
+    ],
+    "categories" : [
+        {
+            "id": 1,
+            "name": "Frutos Secos",
+            "description": "Todos los tipos de frutos secos",
+            "created_at": "2024-04-10T11:32:35.154310-03:00",
+            "updated_at": "2024-04-10T11:32:35.154324-03:00",
+            "related_discount": null,
+            "created_by": 1,
+            "updated_by": 1
+        }
+    ],
+    "user" : [
+        {
+            "id": 1,
+            "password": "pbkdf2_sha256$720000$oMQjc4oArdyrW5f0Ou6EWW$E3PP/yK6TpwRYQm8rdfkIKCpMxev2tTjukHONe1zUjo=",
+            "last_login": "2024-04-10T11:30:43.506685-03:00",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "juanangelbasgall@hotmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-04-10T11:30:02.374767-03:00",
+            "phone": null,
+            "related_discount": null,
+            "groups": [],
+            "user_permissions": []
+        }
+    ]
+}

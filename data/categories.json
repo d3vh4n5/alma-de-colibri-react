@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Frutos Secos",
+        "description": "Todos los tipos de frutos secos",
+        "created_at": "2024-04-10T11:32:35.154310-03:00",
+        "updated_at": "2024-04-10T11:32:35.154324-03:00",
+        "related_discount": null,
+        "created_by": 1,
+        "updated_by": 1
+    }
+]

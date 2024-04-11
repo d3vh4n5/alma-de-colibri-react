@@ -1,3 +1,32 @@
+# Alma de colibrí - React + Typescript
+
+Herramienta para tipar rápido las respuestas de las API:
+
+[url=https://app.quicktype.io/](quicktype)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
