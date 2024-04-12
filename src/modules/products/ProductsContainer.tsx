@@ -24,11 +24,9 @@ export default function ProductsContainer(){
         <>
         {
             products !== null &&
-            <div>
+            <div className="max-w-6xl grid grid-cols-5 gap-y-32 mx-auto">
                 {products.map((product: Product)=> (
-                    <span  key={product.id}>
-                        <ProductCard product={ product }/>
-                    </span>
+                        <ProductCard product={ product } key={product.id}/>
                 ))}  
             </div>
         }

@@ -1,26 +1,17 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../../App";
-import { Home } from "../../pages/Home";
-import { Test } from "../../pages/Test";
-import NotFound from "../../pages/NotFound";
-import About from "../../pages/About";
-import Contact from "../../pages/Contact";
-import Products from "../../pages/Products";
+import allImports, { type LazyItem } from "./LazyLoading";
 
+const routes = allImports.map((item: LazyItem) => (
+    { path: `${item.path}`, element: <item.component /> }
+))
 
 export const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
         children: [
-            // Basic Routes
-            { path: '', element: <Home /> },
-            { path: 'test', element: <Test /> },
-            { path: '*', element: <NotFound /> },
-            // Generic routes
-            { path: 'about', element: <About /> },
-            { path: 'contact', element: <Contact /> },
-            { path: 'products', element: <Products /> },
+            ...routes
         ],
     }
 ])

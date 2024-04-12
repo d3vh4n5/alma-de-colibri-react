@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 
 
-export const Test = () => {
+const Test = () => {
 
   const [cantidad, setCantidad] = useState('')
 
@@ -54,3 +54,6 @@ export const Test = () => {
     </div>
   )
 }
+
+
+export default Test

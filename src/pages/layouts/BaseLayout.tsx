@@ -8,6 +8,7 @@ const BaseLayout = ({
   }>) => {
 
     const style = {
+        padding: '80px 0',
         flex: '1',
         background: '#e7e7e7',
         width: '100%'

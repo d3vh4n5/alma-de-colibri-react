@@ -1,5 +1,5 @@
-import { LINKS } from "../../constants/nav.constants"
 import { Link } from "react-router-dom"
+import routes from "../../modules/routes/LazyLoading"
 
 const Footer = () => {
   return (
@@ -16,13 +16,14 @@ const Footer = () => {
           <nav className="w-1/3">
             <h3 className="font-bold text-xl mb-4">Mapa del sitio</h3>
             <ul>
-                {LINKS.map(link => (
+                {routes.map(link => {if (link.path !== '*') return(
                     <li key={link.path}>
                         <Link to={link.path}>
-                            {link.label}
+                            {link.name}
                         </Link>
                     </li>
-                ))}
+                  )}
+                )}
             </ul>
           </nav>
           <div className="w-1/3">
