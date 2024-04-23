@@ -8,3 +8,12 @@
   margin: 0 auto;
   max-width: 1200px;
 }
+
+.animated{
+  opacity: 0;
+  transition: all 1s;
+}
+
+.fade{
+  opacity: 1;
+}

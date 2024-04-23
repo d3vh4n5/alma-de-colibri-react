@@ -1,6 +1,18 @@
 // https://app.quicktype.io/
 
 
+export type Option = {
+    title: string,
+    list: OptionItem[]
+}
+
+export type OptionItem = {
+    name: string
+    href: string
+}
+
+
+
 export type Product = {
     id:                 number;
     name:               string;

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 // import s from './header.module.css'
 import { LINKS } from "../../constants/nav.constants";
+import DropDownButton from "./DropDownButton";
 
 
 export default function Header() {
@@ -25,7 +26,7 @@ export default function Header() {
                     <div>
 
                         <Link 
-                            to="" 
+                            to="/auth/login" 
                             className="bg-emerald-600 hover:bg-emerald-300 hover:text-emerald-900
                             font-bold py-1 px-5 rounded 
                             "
@@ -38,7 +39,10 @@ export default function Header() {
                     </div>
                 </div>
                 <nav className="py-2">
-                    <ul className="flex gap-4 uppercase w-fit mx-auto">
+                    <ul className="flex gap-4 uppercase w-fit mx-auto items-center">
+                        <li>
+                            <DropDownButton />
+                        </li>
                         {LINKS.map(link => (
                             <li key={link.path}>
                                 <Link to={link.path} className="hover:text-[#ff6c47] hover:font-bold">
